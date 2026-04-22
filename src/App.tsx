@@ -7,7 +7,7 @@ import {
   Wallet,
   BarChart2,
   MapPin,
-  Phone,
+  Phone, 
   MessageCircle,
   CheckCircle,
   ArrowLeft,
@@ -1642,7 +1642,7 @@ export default function App() {
                     <p className="font-bold">{z.nama}</p>
                     <p className="font-black text-green-600">
                       {formatCurrency(z.harga)}
-                    </p>
+                    </p> 
                   </div>
                 ))}
               </div>
